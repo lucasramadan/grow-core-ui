@@ -1,5 +1,5 @@
 import CoreTile from './CoreTile'
-import assemblyData from '../data.js'
+import assemblyData from '../assemblyData.js'
 
 const CoreAssembly = () => {
   return (

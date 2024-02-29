@@ -7,7 +7,8 @@ const coreData = [
 
     // Metrics
     temperature: {
-      current: 72.0,
+      current: 70.0,
+      unit: '°F',
       historical: [71.0, 72.0],
       lowerBound: 69.0,
       upperBound: 72.0
