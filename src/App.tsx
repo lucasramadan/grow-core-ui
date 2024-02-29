@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import './App.css'
 import NavBar from './components/NavBar.js'
 import Header from './components/Header.js'
@@ -7,12 +9,20 @@ import CoreAssembly from './components/CoreAssembly.js'
 
 
 function App() {
+
+  const [selectedMetric, setSelectedMetric] = useState("")
+
   return (
     <>
       <NavBar></NavBar>
       <Header></Header>
-      <MetricSelector/>
-      <CoreAssembly></CoreAssembly>
+      <MetricSelector
+        selectedMetric={selectedMetric}
+        setSelectedMetric={setSelectedMetric}
+      />
+      <CoreAssembly
+        selectedMetric={selectedMetric}
+      />
       <Footer></Footer>
     </>
   )
