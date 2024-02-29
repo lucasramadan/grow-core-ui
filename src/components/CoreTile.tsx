@@ -8,7 +8,7 @@ const CoreTile = (props) => {
   return (
     <div className="core-pannel">
       <img src="/assets/core_logo.png" alt="grow-core" />
-      <strong className="healthy-core">{`${props.coreData.temperature.current}${props.coreData.temperature.unit}`}</strong>
+      <strong className="healthy-core">{`${props.coreData.current}${props.coreData.unit}`}</strong>
     </div>
   )
 }

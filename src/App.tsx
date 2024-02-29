@@ -10,7 +10,7 @@ import CoreAssembly from './components/CoreAssembly.js'
 
 function App() {
 
-  const [selectedMetric, setSelectedMetric] = useState("")
+  const [selectedMetric, setSelectedMetric] = useState("temperature")
 
   return (
     <>
