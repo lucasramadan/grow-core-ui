@@ -1,17 +1,19 @@
-import { useState } from 'react'
 import './App.css'
+import NavBar from './components/NavBar.js'
+import Header from './components/Header.js'
+import Footer from './components/Footer.js'
+import MetricSelector from './components/MetricSelector.js'
+import CoreAssembly from './components/CoreAssembly.js'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </button>
-      <p>
-        Edit <code>src/App.tsx</code> and save to test HMR
-      </p>
+      <NavBar></NavBar>
+      <Header></Header>
+      <MetricSelector/>
+      <CoreAssembly></CoreAssembly>
+      <Footer></Footer>
     </>
   )
 }
