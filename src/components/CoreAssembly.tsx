@@ -1,9 +1,15 @@
 import CoreTile from './CoreTile'
+import assemblyData from '../data.js'
 
 const CoreAssembly = () => {
   return (
     <main>
-      <CoreTile />
+      {assemblyData.map((core) => (
+        <CoreTile
+          key={core.id}
+          coreData={core}
+        />
+      ))}
     </main>
 
   )
