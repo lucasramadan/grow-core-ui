@@ -1,49 +1,57 @@
 const metricList = [
   {
     id: 1,
-    name: 'Temperature',
+    displayName: 'Temp',
+    code: 'temperature',
     alt: 'Thermometer',
     logoPath: '/metrics/temperature.png'
   },
   {
     id: 2,
-    name: 'Humidity',
+    displayName: 'Humidity',
+    code: 'humidity',
     alt: 'Waterdroplet Percentage',
     logoPath: '/metrics/humidity.png'
   },
   {
     id: 3,
-    name: 'Light',
+    displayName: 'Light',
+    code: 'light',
     alt: 'Lightbulb',
     logoPath: '/metrics/lightbulb.png'
   },
   {
     id: 4,
-    name: 'CO2',
+    displayName: 'CO2',
+    code: 'co2',
     alt: 'CO2 Cloud',
     logoPath: '/metrics/co2.png'
   },
   {
     id: 5,
-    name: 'Vapor',
+    displayName: 'Vapor',
+    code: 'vapor',
     alt: 'Steam',
     logoPath: '/metrics/water-vapor.png'
   },
   {
     id: 6,
-    name: 'Airflow',
+    displayName: 'Airflow',
+    code: 'airflow',
     alt: 'Airflow',
     logoPath: '/metrics/air-flow.png'
   },
   {
     id: 7,
-    name: 'EC',
+    displayName: 'EC',
+    code: 'ec',
     alt: 'Waterdroplet Electricity',
     logoPath: '/metrics/ec_icon.png'
   },
   {
     id: 8,
-    name: 'pH',
+    displayName: 'pH',
+    code: 'ph',
     alt: 'pH Meter',
     logoPath: '/metrics/ph.png'
   }
