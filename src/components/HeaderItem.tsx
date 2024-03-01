@@ -1,31 +1,52 @@
 import { useMemo } from "react"
 
 const HeaderItem = (props) => {
+  // Ideally this wouldn't be hardcoded
+  const lastestFirmware = "2024.01.12"
+
   // Wrap this in a useMemo -- feedback from MattS
   const [showImgPath, showMessage, showAlt] = useMemo(() => {
     switch (props.alertType) {
       case 'core-description':
         return [
           "/assets/core_logo.png",
-          `Viewing ${props.selectedCore}`,
+          `Viewing: ${props.selectedCore}`,
           "Selected Grow Core"
         ]
       case 'firmware-check':
+        // I don't love this unpacking choice
+        // Selected core => should only be single-elemented array
+        const currentFirmware = props.assemblyData.filter(
+          (core) => core.name === props.selectedCore
+        )[0].firmware
         return [
           "/assets/notification.png",
-          "Firmware version is: 2023.11.02 Consider upgrading to: 2024.01.12",
+          (currentFirmware === lastestFirmware) ?"Firmware Up To Date" : 
+          `Firmware version is: ${currentFirmware} Consider upgrading to:${lastestFirmware}`,
           "Firmware-Validation"
         ]
       case 'out-of-spec':
+        // Determines how many cores are out of spec
+        const unhealthyCores = props.assemblyData.map(
+          (core) => (
+            Number(
+              core[props.selectedMetric].current < core[props.selectedMetric].lowerBound || core[props.selectedMetric].current > core[props.selectedMetric].upperBound)
+            )
+        ).reduce((runningTotal, currentValue) => (runningTotal+currentValue))
         return [
           "/assets/warning.png",
-          "There are 4 cores out of spec. Please check HVAC controls.",
+          `There are ${unhealthyCores} core(s) out of spec. Please check HVAC controls.`,
           "Cores out of range"
         ]
       case 'firmware-summary':
+        // Determine how many cores need Firmware upgrade
+        const upgradeableCores = props.assemblyData.map(
+          (core) => (
+            Number(core.firmware !== lastestFirmware)
+        )).reduce((runningTotal, currentValue) => (runningTotal+currentValue))
         return [
           "/assets/notification.png",
-          "Firmware version is: 2023.11.02 Consider upgrading to: 2024.01.12",
+          `There are ${upgradeableCores} that need updated Firmware`,
           "Firmware Summary"
         ]
       default:

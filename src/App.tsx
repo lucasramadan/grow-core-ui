@@ -21,6 +21,7 @@ function App() {
       <Header
         assemblyData={assemblyData}
         selectedCore={selectedCore}
+        selectedMetric={selectedMetric}
       />
       <MetricSelector
         selectedMetric={selectedMetric}

@@ -6,12 +6,12 @@ const Header = (props) => {
       <header>
         <HeaderItem
           selectedCore={props.selectedCore}
-          coreData={props.assemblyData}
+          assemblyData={props.assemblyData}
           alertType='core-description'
         />
         <HeaderItem
           selectedCore={props.selectedCore}
-          coreData={props.assemblyData}
+          assemblyData={props.assemblyData}
           alertType='firmware-check'
         />
       </header>
@@ -21,11 +21,12 @@ const Header = (props) => {
     return (
       <header>
         <HeaderItem
-          coreData={props.assemblyData}
+          assemblyData={props.assemblyData}
+          selectedMetric={props.selectedMetric}
           alertType="out-of-spec"
         />
         <HeaderItem
-          coreData={props.assemblyData}
+          assemblyData={props.assemblyData}
           alertType="firmware-summary"
         />
       </header>
