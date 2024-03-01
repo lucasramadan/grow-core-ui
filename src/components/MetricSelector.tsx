@@ -1,12 +1,9 @@
 import Metric from "./Metric"
 import metricList from '../metricList.js'
 
-// Trying to generate the metrics by file
+// Trying to generate the metrics by file in a dir?
 // var fs = require('fs');
 // var files = fs.readdirSync('/metrics/');
-
-// We should change the class of the metric
-// Depending on if it's been selected
 
 const MetricSelector = (props) => {
   return (
