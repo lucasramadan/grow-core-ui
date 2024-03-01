@@ -12,5 +12,6 @@ It should highlight where issues are in red coloring,
   - [ ] Consider changing the color of the core tile if offline?
 - [x] Core measurement text color should change if it is outside of `lowerBound` and `upperBound`
 - [x] Change the header once someone has clicked on a core
-  - [ ] (Stretch) Allow plotting of the historical data
+  - [X] (Stretch) Allow plotting of the historical data
+  - [ ] Allow removal of the selected metric
 
