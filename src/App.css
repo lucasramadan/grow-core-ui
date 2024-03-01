@@ -112,6 +112,10 @@ aside {
   max-height: 40px;
 }
 
+.metric-plot {
+  margin: 10px 20px;
+}
+
 main {
   display: flex;
   flex-direction: row;
