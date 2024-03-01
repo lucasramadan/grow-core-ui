@@ -663,7 +663,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-010',
+    name: 'GC-10',
     ph: {
       current: 5.43,
       historical: [5.74, 5.54, 5.51, 5.96, 5.7, 5.84, 5.75, 5.96, 5.76, 5.41],
@@ -732,7 +732,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-011',
+    name: 'GC-11',
     ph: {
       current: 5.74,
       historical: [5.52, 5.7, 5.99, 5.74, 5.47, 5.45, 5.84, 5.65, 5.71, 5.47],
@@ -801,7 +801,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-012',
+    name: 'GC-12',
     ph: {
       current: 5.86,
       historical: [5.85, 5.58, 5.7, 5.77, 5.55, 5.62, 5.78, 5.53, 5.85, 5.77],
@@ -870,7 +870,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-013',
+    name: 'GC-13',
     ph: {
       current: 5.73,
       historical: [5.67, 5.52, 5.89, 5.99, 5.44, 5.52, 5.91, 5.79, 5.61, 5.87],
@@ -939,7 +939,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-014',
+    name: 'GC-14',
     ph: {
       current: 5.43,
       historical: [5.43, 5.81, 5.64, 5.65, 5.89, 5.52, 5.88, 5.89, 5.7, 5.95],
@@ -1008,7 +1008,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-015',
+    name: 'GC-15',
     ph: {
       current: 5.82,
       historical: [5.82, 5.61, 5.58, 5.55, 5.44, 5.53, 5.64, 5.74, 5.69, 5.75],
@@ -1077,7 +1077,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-016',
+    name: 'GC-16',
     ph: {
       current: 5.62,
       historical: [5.46, 5.82, 5.61, 5.57, 5.73, 5.94, 5.98, 5.88, 5.47, 5.82],
@@ -1146,7 +1146,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-017',
+    name: 'GC-17',
     ph: {
       current: 5.95,
       historical: [5.54, 5.68, 5.58, 5.98, 5.44, 5.65, 5.77, 5.87, 5.86, 5.59],
@@ -1215,7 +1215,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-018',
+    name: 'GC-18',
     ph: {
       current: 5.79,
       historical: [5.57, 5.61, 5.5, 5.7, 5.67, 5.46, 5.47, 5.68, 5.79, 5.81],
@@ -1284,7 +1284,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-019',
+    name: 'GC-19',
     ph: {
       current: 5.52,
       historical: [5.92, 5.44, 5.86, 5.46, 5.44, 5.88, 5.98, 5.61, 5.98, 5.92],
@@ -1353,7 +1353,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-020',
+    name: 'GC-20',
     ph: {
       current: 5.56,
       historical: [5.74, 5.42, 5.97, 5.86, 5.69, 5.61, 5.79, 5.71, 5.53, 5.78],
@@ -1422,7 +1422,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-021',
+    name: 'GC-21',
     ph: {
       current: 5.46,
       historical: [5.86, 5.41, 5.68, 5.53, 5.99, 5.66, 5.83, 5.64, 5.61, 5.61],
@@ -1491,7 +1491,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-022',
+    name: 'GC-22',
     ph: {
       current: 5.76,
       historical: [5.81, 5.61, 5.57, 5.52, 5.96, 5.76, 5.7, 5.48, 5.9, 5.93],
@@ -1560,7 +1560,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-023',
+    name: 'GC-23',
     ph: {
       current: 5.5,
       historical: [5.87, 5.58, 5.46, 5.74, 5.43, 5.51, 5.52, 5.46, 5.41, 5.53],
@@ -1629,7 +1629,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-024',
+    name: 'GC-24',
     ph: {
       current: 5.95,
       historical: [5.78, 5.92, 5.6, 5.65, 5.74, 5.44, 6.0, 5.75, 5.93, 5.78],
@@ -1698,7 +1698,7 @@ const coreData = [
       unit: 'moles/day',
       upperBound: 14.0
     },
-    name: 'GC-025',
+    name: 'GC-25',
     ph: {
       current: 5.72,
       historical: [5.59, 5.47, 5.51, 5.77, 5.61, 5.55, 5.65, 5.4, 5.49, 5.41],
