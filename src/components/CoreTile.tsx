@@ -5,10 +5,11 @@
 // Also the metric that has been select if possible
 
 const CoreTile = (props) => {
+  const healthyCore = props.coreData.current > props.coreData.lowerBound && props.coreData.current < props.coreData.upperBound
   return (
     <div className="core-pannel">
       <img src="/assets/core_logo.png" alt="grow-core" />
-      <strong className="healthy-core">{`${props.coreData.current}${props.coreData.unit}`}</strong>
+      <strong className={healthyCore ? "healthy-core" : "unhealthy-core"}>{`${props.coreData.current}${props.coreData.unit}`}</strong>
     </div>
   )
 }

@@ -466,7 +466,7 @@ const coreData = [
     },
     status: 'Online',
     temperature: {
-      current: 71.08,
+      current: 61.08,
       historical: [
         74.1, 70.37, 65.55, 75.65, 70.34, 66.04, 72.73, 71.25, 77.49, 78.28
       ],
