@@ -39,7 +39,7 @@ const coreData = [
         12.88, 12.87, 11.09, 10.48, 10.07, 12.82, 13.1, 10.4, 11.76, 12.93
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-01',
@@ -47,7 +47,7 @@ const coreData = [
       current: 5.86,
       historical: [5.71, 5.43, 5.43, 5.8, 5.91, 5.69, 5.42, 6.0, 5.47, 5.78],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -108,7 +108,7 @@ const coreData = [
         10.51, 11.14, 10.01, 11.3, 10.45, 12.68, 12.0, 10.74, 13.09, 11.83
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-02',
@@ -116,7 +116,7 @@ const coreData = [
       current: 5.87,
       historical: [5.43, 5.54, 5.7, 5.51, 5.82, 5.51, 5.98, 5.43, 5.51, 5.49],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -177,7 +177,7 @@ const coreData = [
         10.79, 11.96, 11.6, 11.32, 11.83, 11.26, 11.15, 11.9, 11.27, 10.76
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-03',
@@ -185,7 +185,7 @@ const coreData = [
       current: 5.74,
       historical: [5.55, 5.83, 5.85, 5.71, 5.88, 5.77, 5.63, 5.79, 5.98, 5.43],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -246,7 +246,7 @@ const coreData = [
         11.92, 10.67, 11.91, 10.52, 11.75, 12.18, 12.47, 10.84, 11.25, 13.36
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-04',
@@ -254,7 +254,7 @@ const coreData = [
       current: 5.56,
       historical: [5.71, 5.49, 5.73, 5.5, 5.44, 5.54, 5.63, 5.72, 5.76, 5.83],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -315,7 +315,7 @@ const coreData = [
         11.34, 10.21, 12.93, 10.49, 13.46, 13.1, 11.49, 10.22, 12.4, 13.12
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-05',
@@ -323,7 +323,7 @@ const coreData = [
       current: 5.74,
       historical: [5.88, 5.84, 5.76, 5.45, 5.86, 5.63, 5.98, 5.52, 5.98, 5.93],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -384,7 +384,7 @@ const coreData = [
         12.28, 13.74, 13.94, 11.19, 10.23, 12.7, 12.59, 10.82, 10.88, 12.95
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-06',
@@ -392,7 +392,7 @@ const coreData = [
       current: 5.49,
       historical: [5.49, 5.67, 5.49, 5.9, 5.47, 5.82, 5.78, 5.5, 5.82, 5.65],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -453,7 +453,7 @@ const coreData = [
         13.6, 10.73, 11.52, 12.84, 10.27, 13.7, 12.43, 12.03, 13.49, 10.91
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-07',
@@ -461,7 +461,7 @@ const coreData = [
       current: 5.91,
       historical: [5.67, 5.77, 5.55, 5.52, 5.57, 5.42, 5.62, 5.91, 5.97, 5.63],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -522,7 +522,7 @@ const coreData = [
         12.25, 10.43, 10.39, 11.22, 12.06, 13.73, 12.18, 11.33, 13.26, 13.15
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-08',
@@ -530,7 +530,7 @@ const coreData = [
       current: 5.93,
       historical: [5.5, 5.81, 5.79, 5.77, 5.58, 5.97, 5.9, 5.53, 5.49, 5.4],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -591,7 +591,7 @@ const coreData = [
         11.3, 11.24, 10.12, 12.48, 13.64, 12.31, 12.48, 10.1, 11.18, 12.89
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-09',
@@ -599,7 +599,7 @@ const coreData = [
       current: 5.7,
       historical: [5.69, 5.55, 5.8, 5.82, 5.57, 5.88, 5.77, 5.54, 5.99, 5.97],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -660,7 +660,7 @@ const coreData = [
         12.3, 12.12, 13.88, 13.32, 10.72, 10.74, 12.38, 13.03, 13.45, 10.98
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-10',
@@ -668,7 +668,7 @@ const coreData = [
       current: 5.43,
       historical: [5.74, 5.54, 5.51, 5.96, 5.7, 5.84, 5.75, 5.96, 5.76, 5.41],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -729,7 +729,7 @@ const coreData = [
         11.08, 13.43, 10.28, 10.65, 13.92, 10.82, 11.57, 13.41, 12.22, 12.48
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-11',
@@ -737,7 +737,7 @@ const coreData = [
       current: 5.74,
       historical: [5.52, 5.7, 5.99, 5.74, 5.47, 5.45, 5.84, 5.65, 5.71, 5.47],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -798,7 +798,7 @@ const coreData = [
         13.55, 11.28, 13.32, 13.31, 13.75, 11.67, 13.49, 12.65, 11.55, 10.17
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-12',
@@ -806,7 +806,7 @@ const coreData = [
       current: 5.86,
       historical: [5.85, 5.58, 5.7, 5.77, 5.55, 5.62, 5.78, 5.53, 5.85, 5.77],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Offline',
@@ -867,7 +867,7 @@ const coreData = [
         13.89, 12.8, 11.52, 12.58, 12.29, 12.8, 10.88, 11.29, 12.26, 12.75
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-13',
@@ -875,7 +875,7 @@ const coreData = [
       current: 5.73,
       historical: [5.67, 5.52, 5.89, 5.99, 5.44, 5.52, 5.91, 5.79, 5.61, 5.87],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -936,7 +936,7 @@ const coreData = [
         11.33, 10.14, 12.87, 10.08, 12.48, 10.61, 12.27, 13.49, 13.34, 12.29
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-14',
@@ -944,7 +944,7 @@ const coreData = [
       current: 5.43,
       historical: [5.43, 5.81, 5.64, 5.65, 5.89, 5.52, 5.88, 5.89, 5.7, 5.95],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1005,7 +1005,7 @@ const coreData = [
         13.22, 11.67, 10.03, 11.87, 11.58, 11.18, 11.1, 13.96, 10.87, 11.65
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-15',
@@ -1013,7 +1013,7 @@ const coreData = [
       current: 5.82,
       historical: [5.82, 5.61, 5.58, 5.55, 5.44, 5.53, 5.64, 5.74, 5.69, 5.75],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1074,7 +1074,7 @@ const coreData = [
         13.37, 10.82, 13.12, 10.87, 10.31, 10.96, 13.48, 10.35, 13.82, 13.59
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-16',
@@ -1082,7 +1082,7 @@ const coreData = [
       current: 5.62,
       historical: [5.46, 5.82, 5.61, 5.57, 5.73, 5.94, 5.98, 5.88, 5.47, 5.82],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1143,7 +1143,7 @@ const coreData = [
         11.53, 10.69, 12.79, 13.2, 12.91, 12.41, 13.46, 13.34, 10.15, 13.29
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-17',
@@ -1151,7 +1151,7 @@ const coreData = [
       current: 5.95,
       historical: [5.54, 5.68, 5.58, 5.98, 5.44, 5.65, 5.77, 5.87, 5.86, 5.59],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1212,7 +1212,7 @@ const coreData = [
         13.86, 11.25, 11.89, 10.37, 11.87, 12.14, 10.78, 10.15, 12.27, 11.73
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-18',
@@ -1220,7 +1220,7 @@ const coreData = [
       current: 5.79,
       historical: [5.57, 5.61, 5.5, 5.7, 5.67, 5.46, 5.47, 5.68, 5.79, 5.81],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1281,7 +1281,7 @@ const coreData = [
         13.41, 11.63, 13.97, 10.75, 13.76, 13.12, 13.46, 12.51, 13.48, 11.17
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-19',
@@ -1289,7 +1289,7 @@ const coreData = [
       current: 5.52,
       historical: [5.92, 5.44, 5.86, 5.46, 5.44, 5.88, 5.98, 5.61, 5.98, 5.92],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1350,7 +1350,7 @@ const coreData = [
         12.21, 11.51, 11.36, 10.51, 13.19, 12.59, 10.65, 12.8, 12.01, 12.9
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-20',
@@ -1358,7 +1358,7 @@ const coreData = [
       current: 5.56,
       historical: [5.74, 5.42, 5.97, 5.86, 5.69, 5.61, 5.79, 5.71, 5.53, 5.78],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1419,7 +1419,7 @@ const coreData = [
         10.89, 13.68, 10.71, 12.69, 11.91, 12.09, 12.35, 11.37, 11.3, 10.3
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-21',
@@ -1427,7 +1427,7 @@ const coreData = [
       current: 5.46,
       historical: [5.86, 5.41, 5.68, 5.53, 5.99, 5.66, 5.83, 5.64, 5.61, 5.61],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Offline',
@@ -1488,7 +1488,7 @@ const coreData = [
         12.3, 13.18, 11.62, 12.64, 13.02, 13.65, 13.72, 10.54, 12.84, 11.71
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-22',
@@ -1496,7 +1496,7 @@ const coreData = [
       current: 5.76,
       historical: [5.81, 5.61, 5.57, 5.52, 5.96, 5.76, 5.7, 5.48, 5.9, 5.93],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1557,7 +1557,7 @@ const coreData = [
         11.23, 12.88, 12.82, 10.75, 11.39, 13.71, 12.1, 13.5, 13.19, 11.18
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-23',
@@ -1565,7 +1565,7 @@ const coreData = [
       current: 5.5,
       historical: [5.87, 5.58, 5.46, 5.74, 5.43, 5.51, 5.52, 5.46, 5.41, 5.53],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1626,7 +1626,7 @@ const coreData = [
         10.8, 12.41, 13.23, 10.57, 13.4, 11.99, 10.77, 11.83, 12.37, 11.41
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-24',
@@ -1634,7 +1634,7 @@ const coreData = [
       current: 5.95,
       historical: [5.78, 5.92, 5.6, 5.65, 5.74, 5.44, 6.0, 5.75, 5.93, 5.78],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
@@ -1695,7 +1695,7 @@ const coreData = [
         12.64, 10.4, 13.09, 12.97, 11.1, 11.8, 11.63, 13.66, 10.23, 12.98
       ],
       lowerBound: 10.0,
-      unit: 'moles/day',
+      unit: 'mol/day',
       upperBound: 14.0
     },
     name: 'GC-25',
@@ -1703,7 +1703,7 @@ const coreData = [
       current: 5.72,
       historical: [5.59, 5.47, 5.51, 5.77, 5.61, 5.55, 5.65, 5.4, 5.49, 5.41],
       lowerBound: 5.4,
-      unit: 'moles/liter',
+      unit: 'mol/l',
       upperBound: 6.0
     },
     status: 'Online',
