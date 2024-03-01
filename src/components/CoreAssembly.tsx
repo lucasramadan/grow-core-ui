@@ -1,13 +1,15 @@
 import CoreTile from './CoreTile'
-import assemblyData from '../assemblyData.js'
 
 const CoreAssembly = (props) => {
   return (
     <main>
-      {assemblyData.map((core) => (
+      {props.assemblyData.map((core) => (
         <CoreTile
           key={core.id}
-          coreData={core[props.selectedMetric]}
+          coreData={core}
+          selectedMetric={props.selectedMetric}
+          selectedCore={props.selectedCore}
+          setSelectedCore={props.setSelectedCore}
         />
       ))}
     </main>
