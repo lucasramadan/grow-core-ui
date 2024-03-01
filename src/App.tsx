@@ -20,6 +20,7 @@ function App() {
       <NavBar></NavBar>
       <Header
         assemblyData={assemblyData}
+        selectedCore={selectedCore}
       />
       <MetricSelector
         selectedMetric={selectedMetric}

@@ -65,6 +65,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-wrap: wrap;
+  max-width: 35%;
+}
+
+.display-alert > img {
+  max-height: 50px;
 }
 
 aside {
