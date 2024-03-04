@@ -14,4 +14,5 @@ It should highlight where issues are in red coloring,
 - [x] Change the header once someone has clicked on a core
   - [X] (Stretch) Allow plotting of the historical data
   - [ ] Allow removal of the selected metric
-
+- [ ] Company logo should take you back to "Home" (ie: reset state selections)
+- [ ] User click could bring up a ride-aside panel with additional information about company, etc
